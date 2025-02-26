@@ -9,7 +9,7 @@ const getLength = () => {
 const getArray = (length) => {
     let arr = [];
     for (let i = 0; i<length; i++){
-        arr.push(randomElement(0,100))
+        arr.push(randomElement(-10000,10000))
     }
     return arr;
 }
